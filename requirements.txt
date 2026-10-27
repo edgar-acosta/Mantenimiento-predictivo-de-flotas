@@ -1,0 +1,8 @@
+
+reflex[db]==0.10.0
+psycopg[binary]>=3.1.8
+xy[reflex]==0.0.8
+scikit-learn
+numpy
+xgboost
+Pillow>=11.0

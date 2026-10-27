@@ -1,0 +1,443 @@
+{
+  "version": 4,
+  "app_title": "Daimler Fleet Maintenance Platform Plan",
+  "nav": {
+    "placement": "none",
+    "items": []
+  },
+  "pages": [
+    {
+      "id": "page-cb8b4d43",
+      "name": "Sign in",
+      "route": "/login",
+      "item_ref": {
+        "index": 1,
+        "text": "Build email/password sign-in with client-scoped access and network-administrator oversight, plus a client summary with active units, high-risk units, overdue services, monthly cost, priority actions, and risk trend; let the administrator switch client context and view network-wide figures."
+      },
+      "blocks": [
+        {
+          "id": "login-form",
+          "type": "form",
+          "label": "Email and password sign-in",
+          "hint": "Credentials, validation, client identity, and account access",
+          "x": 0,
+          "y": 0,
+          "w": 6,
+          "h": 6,
+          "item_ref": {
+            "index": 1,
+            "text": "Build email/password sign-in with client-scoped access and network-administrator oversight, plus a client summary with active units, high-risk units, overdue services, monthly cost, priority actions, and risk trend; let the administrator switch client context and view network-wide figures."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-14d8c726",
+      "name": "Client summary",
+      "route": "/",
+      "item_ref": {
+        "index": 1,
+        "text": "Build email/password sign-in with client-scoped access and network-administrator oversight, plus a client summary with active units, high-risk units, overdue services, monthly cost, priority actions, and risk trend; let the administrator switch client context and view network-wide figures."
+      },
+      "blocks": [
+        {
+          "id": "summary-sidebar",
+          "type": "sidebar",
+          "label": "Fleet navigation",
+          "hint": "Summary, units, warranties, service orders, sign out",
+          "x": 0,
+          "y": 0,
+          "w": 2,
+          "h": 12,
+          "item_ref": {
+            "index": 1,
+            "text": "Build email/password sign-in with client-scoped access and network-administrator oversight, plus a client summary with active units, high-risk units, overdue services, monthly cost, priority actions, and risk trend; let the administrator switch client context and view network-wide figures."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "summary-header",
+          "type": "nav",
+          "label": "Context and preferences",
+          "hint": "Client selector for administrator, language, theme, account",
+          "x": 2,
+          "y": 0,
+          "w": 10,
+          "h": 1,
+          "item_ref": {
+            "index": 1,
+            "text": "Build email/password sign-in with client-scoped access and network-administrator oversight, plus a client summary with active units, high-risk units, overdue services, monthly cost, priority actions, and risk trend; let the administrator switch client context and view network-wide figures."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "summary-kpis",
+          "type": "kpi",
+          "label": "Fleet indicators",
+          "hint": "Active units, high-risk units, overdue services, monthly cost",
+          "x": 2,
+          "y": 1,
+          "w": 10,
+          "h": 2,
+          "item_ref": {
+            "index": 1,
+            "text": "Build email/password sign-in with client-scoped access and network-administrator oversight, plus a client summary with active units, high-risk units, overdue services, monthly cost, priority actions, and risk trend; let the administrator switch client context and view network-wide figures."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "summary-actions",
+          "type": "list",
+          "label": "Priority actions",
+          "hint": "Ranked interventions linking to units and orders",
+          "x": 2,
+          "y": 3,
+          "w": 5,
+          "h": 5,
+          "item_ref": {
+            "index": 1,
+            "text": "Build email/password sign-in with client-scoped access and network-administrator oversight, plus a client summary with active units, high-risk units, overdue services, monthly cost, priority actions, and risk trend; let the administrator switch client context and view network-wide figures."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "summary-trend",
+          "type": "chart_line",
+          "label": "Risk trend",
+          "hint": "Historical fleet risk in a visible line chart",
+          "x": 7,
+          "y": 3,
+          "w": 5,
+          "h": 5,
+          "item_ref": {
+            "index": 1,
+            "text": "Build email/password sign-in with client-scoped access and network-administrator oversight, plus a client summary with active units, high-risk units, overdue services, monthly cost, priority actions, and risk trend; let the administrator switch client context and view network-wide figures."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-f9c4931d",
+      "name": "Fleet units",
+      "route": "/units",
+      "item_ref": {
+        "index": 2,
+        "text": "Build searchable fleet and unit detail views with health by system, telemetry and fault codes, history and photo/video evidence, warranty status, and 30/90-day component failure probabilities from a trained synthetic-data model; turn risks into timed, costed, warranty-aware recommendations that can create service orders."
+      },
+      "blocks": [
+        {
+          "id": "units-sidebar",
+          "type": "sidebar",
+          "label": "Fleet navigation",
+          "hint": "Shared navigation",
+          "x": 0,
+          "y": 0,
+          "w": 2,
+          "h": 12,
+          "item_ref": {
+            "index": 2,
+            "text": "Build searchable fleet and unit detail views with health by system, telemetry and fault codes, history and photo/video evidence, warranty status, and 30/90-day component failure probabilities from a trained synthetic-data model; turn risks into timed, costed, warranty-aware recommendations that can create service orders."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "units-toolbar",
+          "type": "nav",
+          "label": "Fleet toolbar",
+          "hint": "Search and filters by fleet, risk, and warranty",
+          "x": 2,
+          "y": 0,
+          "w": 10,
+          "h": 2,
+          "item_ref": {
+            "index": 2,
+            "text": "Build searchable fleet and unit detail views with health by system, telemetry and fault codes, history and photo/video evidence, warranty status, and 30/90-day component failure probabilities from a trained synthetic-data model; turn risks into timed, costed, warranty-aware recommendations that can create service orders."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "units-table",
+          "type": "table",
+          "label": "Unit inventory",
+          "hint": "Scoped list of units with mileage, health, risk, and next action",
+          "x": 2,
+          "y": 2,
+          "w": 10,
+          "h": 8,
+          "item_ref": {
+            "index": 2,
+            "text": "Build searchable fleet and unit detail views with health by system, telemetry and fault codes, history and photo/video evidence, warranty status, and 30/90-day component failure probabilities from a trained synthetic-data model; turn risks into timed, costed, warranty-aware recommendations that can create service orders."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-703f1add",
+      "name": "Unit detail",
+      "route": "/units/[id]",
+      "item_ref": {
+        "index": 2,
+        "text": "Build searchable fleet and unit detail views with health by system, telemetry and fault codes, history and photo/video evidence, warranty status, and 30/90-day component failure probabilities from a trained synthetic-data model; turn risks into timed, costed, warranty-aware recommendations that can create service orders."
+      },
+      "blocks": [
+        {
+          "id": "unit-sidebar",
+          "type": "sidebar",
+          "label": "Fleet navigation",
+          "hint": "Shared navigation",
+          "x": 0,
+          "y": 0,
+          "w": 2,
+          "h": 12,
+          "item_ref": {
+            "index": 2,
+            "text": "Build searchable fleet and unit detail views with health by system, telemetry and fault codes, history and photo/video evidence, warranty status, and 30/90-day component failure probabilities from a trained synthetic-data model; turn risks into timed, costed, warranty-aware recommendations that can create service orders."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "unit-header",
+          "type": "nav",
+          "label": "Unit identity and status",
+          "hint": "Unit details, fleet, warranty badge, key telemetry",
+          "x": 2,
+          "y": 0,
+          "w": 10,
+          "h": 2,
+          "item_ref": {
+            "index": 2,
+            "text": "Build searchable fleet and unit detail views with health by system, telemetry and fault codes, history and photo/video evidence, warranty status, and 30/90-day component failure probabilities from a trained synthetic-data model; turn risks into timed, costed, warranty-aware recommendations that can create service orders."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "unit-health",
+          "type": "card_grid",
+          "label": "System health",
+          "hint": "Engine, brakes, aftertreatment, electrical, tires",
+          "x": 2,
+          "y": 2,
+          "w": 6,
+          "h": 4,
+          "item_ref": {
+            "index": 2,
+            "text": "Build searchable fleet and unit detail views with health by system, telemetry and fault codes, history and photo/video evidence, warranty status, and 30/90-day component failure probabilities from a trained synthetic-data model; turn risks into timed, costed, warranty-aware recommendations that can create service orders."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "unit-predictions",
+          "type": "list",
+          "label": "Failure predictions",
+          "hint": "30- and 90-day probability by component",
+          "x": 8,
+          "y": 2,
+          "w": 4,
+          "h": 4,
+          "item_ref": {
+            "index": 2,
+            "text": "Build searchable fleet and unit detail views with health by system, telemetry and fault codes, history and photo/video evidence, warranty status, and 30/90-day component failure probabilities from a trained synthetic-data model; turn risks into timed, costed, warranty-aware recommendations that can create service orders."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "unit-actions",
+          "type": "list",
+          "label": "Prescribed actions",
+          "hint": "Timing, cost, coverage, create order",
+          "x": 2,
+          "y": 6,
+          "w": 10,
+          "h": 4,
+          "item_ref": {
+            "index": 2,
+            "text": "Build searchable fleet and unit detail views with health by system, telemetry and fault codes, history and photo/video evidence, warranty status, and 30/90-day component failure probabilities from a trained synthetic-data model; turn risks into timed, costed, warranty-aware recommendations that can create service orders."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "unit-history",
+          "type": "list",
+          "label": "History and evidence",
+          "hint": "DTC, service timeline, photo and video evidence",
+          "x": 2,
+          "y": 10,
+          "w": 10,
+          "h": 5,
+          "item_ref": {
+            "index": 2,
+            "text": "Build searchable fleet and unit detail views with health by system, telemetry and fault codes, history and photo/video evidence, warranty status, and 30/90-day component failure probabilities from a trained synthetic-data model; turn risks into timed, costed, warranty-aware recommendations that can create service orders."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-5401a976",
+      "name": "Warranty management",
+      "route": "/warranty",
+      "item_ref": {
+        "index": 3,
+        "text": "Build warranty management with coverage and claims, and a service-order workspace with a calendar, status board, parts tracking, and saved progress; apply language and theme controls throughout."
+      },
+      "blocks": [
+        {
+          "id": "warranty-sidebar",
+          "type": "sidebar",
+          "label": "Fleet navigation",
+          "hint": "Shared navigation",
+          "x": 0,
+          "y": 0,
+          "w": 2,
+          "h": 12,
+          "item_ref": {
+            "index": 3,
+            "text": "Build warranty management with coverage and claims, and a service-order workspace with a calendar, status board, parts tracking, and saved progress; apply language and theme controls throughout."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "warranty-toolbar",
+          "type": "nav",
+          "label": "Warranty filters",
+          "hint": "Coverage status, expiring dates, client context",
+          "x": 2,
+          "y": 0,
+          "w": 10,
+          "h": 2,
+          "item_ref": {
+            "index": 3,
+            "text": "Build warranty management with coverage and claims, and a service-order workspace with a calendar, status board, parts tracking, and saved progress; apply language and theme controls throughout."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "warranty-table",
+          "type": "table",
+          "label": "Warranty coverage",
+          "hint": "Unit dates, mileage limits, covered components",
+          "x": 2,
+          "y": 2,
+          "w": 6,
+          "h": 7,
+          "item_ref": {
+            "index": 3,
+            "text": "Build warranty management with coverage and claims, and a service-order workspace with a calendar, status board, parts tracking, and saved progress; apply language and theme controls throughout."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "warranty-claims",
+          "type": "list",
+          "label": "Claims",
+          "hint": "Associated claim status and filing progress",
+          "x": 8,
+          "y": 2,
+          "w": 4,
+          "h": 7,
+          "item_ref": {
+            "index": 3,
+            "text": "Build warranty management with coverage and claims, and a service-order workspace with a calendar, status board, parts tracking, and saved progress; apply language and theme controls throughout."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-a502c2f9",
+      "name": "Service orders",
+      "route": "/orders",
+      "item_ref": {
+        "index": 3,
+        "text": "Build warranty management with coverage and claims, and a service-order workspace with a calendar, status board, parts tracking, and saved progress; apply language and theme controls throughout."
+      },
+      "blocks": [
+        {
+          "id": "orders-sidebar",
+          "type": "sidebar",
+          "label": "Fleet navigation",
+          "hint": "Shared navigation",
+          "x": 0,
+          "y": 0,
+          "w": 2,
+          "h": 12,
+          "item_ref": {
+            "index": 3,
+            "text": "Build warranty management with coverage and claims, and a service-order workspace with a calendar, status board, parts tracking, and saved progress; apply language and theme controls throughout."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "orders-toolbar",
+          "type": "nav",
+          "label": "Order controls",
+          "hint": "Calendar/board views and filters",
+          "x": 2,
+          "y": 0,
+          "w": 10,
+          "h": 2,
+          "item_ref": {
+            "index": 3,
+            "text": "Build warranty management with coverage and claims, and a service-order workspace with a calendar, status board, parts tracking, and saved progress; apply language and theme controls throughout."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "orders-calendar",
+          "type": "calendar",
+          "label": "Service schedule",
+          "hint": "Due dates and planned appointments",
+          "x": 2,
+          "y": 2,
+          "w": 6,
+          "h": 6,
+          "item_ref": {
+            "index": 3,
+            "text": "Build warranty management with coverage and claims, and a service-order workspace with a calendar, status board, parts tracking, and saved progress; apply language and theme controls throughout."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "orders-board",
+          "type": "text",
+          "label": "Status board",
+          "hint": "Planned, in progress, waiting for parts, completed",
+          "x": 8,
+          "y": 2,
+          "w": 4,
+          "h": 6,
+          "item_ref": {
+            "index": 3,
+            "text": "Build warranty management with coverage and claims, and a service-order workspace with a calendar, status board, parts tracking, and saved progress; apply language and theme controls throughout."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "orders-parts",
+          "type": "table",
+          "label": "Parts and order detail",
+          "hint": "Parts requirements, status updates, cost and warranty links",
+          "x": 2,
+          "y": 8,
+          "w": 10,
+          "h": 4,
+          "item_ref": {
+            "index": 3,
+            "text": "Build warranty management with coverage and claims, and a service-order workspace with a calendar, status board, parts tracking, and saved progress; apply language and theme controls throughout."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    }
+  ],
+  "attached_to_plan": false
+}
