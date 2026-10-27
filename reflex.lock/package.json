@@ -6,7 +6,6 @@
     "export": "react-router build"
   },
   "dependencies": {
-    "@radix-ui/themes": "3.3.0",
     "@react-router/node": "8.4.0",
     "isbot": "5.2.2",
     "lucide-react": "1.26.0",
